@@ -1,0 +1,10 @@
+.change-mode{
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie-title {
+  display: inline-block;
+  width: 80%;
+}
+
