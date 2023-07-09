@@ -185,6 +185,7 @@ function addToFavorite(id) {
   }
   list.push(movie);
   localStorage.setItem("favoriteMovies", JSON.stringify(list));
+  alert('收藏成功!')
 }
 
 searchForm.addEventListener("submit", function onSearchFormSubmitted(event) {
